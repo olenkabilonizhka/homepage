@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-  
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
@@ -50,6 +50,7 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+
   .main-info,
   .contact_info_container {
     flex-direction: column;
@@ -231,6 +232,10 @@ body {
 .additional-info__education-header {
   color: var(--secondary-text-color);
   text-align: left;
+  margin-bottom: 20px;
+}
+
+.additional-info__education-university {
   margin-bottom: 20px;
 }
 
